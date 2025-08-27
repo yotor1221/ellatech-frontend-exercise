@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "ellatech-frontend-exercise",
+    "slug": "ellatech-frontend-exercise",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ellatech.frontendexercise"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.ellatech.frontendexercise"
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "newArchEnabled": true,
+    "jsEngine": "hermes"
+  }
+}
